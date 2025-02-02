@@ -1,0 +1,47 @@
+.hidden {
+    display: none;
+}
+
+.container {
+    width: 30%;
+    margin: 50px;
+}
+
+#Cap {
+    transition: all 0.4s ease;
+    transform-origin: 50%;
+}
+
+#Cap:hover {
+    transform: scale(50%);
+    filter: invert(60%);
+}
+
+#Peach {
+    transition: all 0.5s ease;
+}
+
+#Peach:hover {
+    filter: contrast(50%);
+    animation: rotateToRight 4s linear infinite;
+}
+
+@keyframes rotateToRight {
+    0% {transform: translateX(0) rotate(0deg)}
+    50% {transform: translateX(100px)rotate(360deg)}
+    100% {transform: translateX(200px)rotate(720deg)}
+}
+
+
+#Lemon {
+    transition: all 0.7s ease;
+}
+
+#Lemon:hover {
+    transform: scaleX(0.6);
+}
+
+#Lemon:hover #pulp {
+    fill: coral;
+    transform: rotate(360deg);
+}

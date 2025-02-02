@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Logomark" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 238.77 238.77">
+  <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke-width: 5px;
+      }
+
+      .st0, .st1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .st1 {
+        stroke-width: 4px;
+      }
+
+      .st2 {
+        fill: #2c3582;
+      }
+
+      #main_frake, #bg_cirle, #sub_frake {
+        transition: all 0.5s ease;
+        transform-origin: center;
+      }
+
+      #Logomark:hover #main_frake {
+        transform: scale(1.2) rotate(180deg);
+      }
+
+      #Logomark:hover #sub_frake {
+        transform: rotate(-360deg);
+      }
+
+      #Logomark:hover #bg_circle {
+        filter: contrast(10%);
+      }
+    </style>
+  </defs>
+  <path id="bg_circle" class="st2" d="M238.77,119.39c0,65.94-53.45,119.39-119.39,119.39S0,185.32,0,119.39,53.45,0,119.39,0s119.39,53.45,119.39,119.39Z"/>
+  <g id="sub_frake">
+    <polygon class="st1" points="87.2 71.09 61.26 60.98 71.37 86.92 97.31 97.03 87.2 71.09"/>
+    <polygon class="st1" points="167.31 151.89 141.33 141.88 151.54 167.78 177.51 177.79 167.31 151.89"/>
+    <polygon class="st1" points="151.48 71.18 141.46 97.16 167.37 86.96 177.38 60.98 151.48 71.18"/>
+    <polygon class="st1" points="73.2 148.75 63.19 174.73 89.09 164.53 99.11 138.55 73.2 148.75"/>
+  </g>
+  <g id="main_frake">
+    <polygon class="st0" points="141.42 68.4 119.03 17.42 96.64 68.4 119.03 119.39 141.42 68.4"/>
+    <polygon class="st0" points="141.42 170.37 119.03 119.39 96.64 170.37 119.03 221.35 141.42 170.37"/>
+    <polygon class="st0" points="170.73 97 119.75 119.39 170.73 141.78 221.71 119.39 170.73 97"/>
+    <polygon class="st0" points="68.04 97 17.06 119.39 68.04 141.78 119.03 119.39 68.04 97"/>
+  </g>
+</svg>
