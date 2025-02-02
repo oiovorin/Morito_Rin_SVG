@@ -21,13 +21,13 @@
         fill: #2c3582;
       }
 
-      #main_frake, #bg_cirle, #sub_flake {
+      #main_flake, #bg_cirle, #sub_flake {
         transition: all 0.5s ease;
         transform-origin: center;
       }
 
       #Logomark:hover #main_flake {
-        transform: scale(1.2) rotate(180deg);
+        transform: scale(1.2), rotate(180deg);
       }
 
       #Logomark:hover #sub_flake {
