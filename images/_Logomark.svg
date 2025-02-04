@@ -15,12 +15,18 @@
 
       .st1 {
         fill: #044877;
-        stroke: #fff;
       }
 
-       #Logomark:hover #sub_flake {
-        transform: rotate(-180deg);
+      #Logomark:hover #main_flake {
+        transform: rotate(180deg);
         transform-origin: center;
+        transition: transform 2s ease;
+      }
+
+      #Logomark:hover #sub_flake {
+        transform: scale(1.1);
+        transform-origin: center;
+        transition: transform 0.7s ease;
       }
     </style>
   </defs>
