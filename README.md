@@ -2,6 +2,8 @@
 
 ## Installation
 1. Design 6 SVG icons in illustrator
+ex:
+![Lemon_svg_ex](./images/_Lemon.svg)
 2. Place icons on HTML and style it with main.css
 3. Create a hover action for each SVG icon with several way to move it
 4. Add code in main.js to get ID when the SVG clicked
