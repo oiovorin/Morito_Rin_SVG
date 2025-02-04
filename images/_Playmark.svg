@@ -35,6 +35,16 @@
         transform-origin: center;
         transition: transform 0.7s ease;
       }
+
+      <script>
+      const playmark = document.querySelector('#Playmark')
+
+      function logId() {
+      console.log(`The ID of this element is: ${this.id}`);
+      }
+
+      playmark.addEventListener('click', logId);
+    </script>
     </style>
   </defs>
   <g>
