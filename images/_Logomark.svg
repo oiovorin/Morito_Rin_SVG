@@ -28,6 +28,16 @@
         transform-origin: center;
         transition: transform 0.7s ease;
       }
+
+      <script>
+      const logomark = document.querySelector('#Logomark')
+
+      function logId() {
+      console.log(`The ID of this element is: ${this.id}`);
+      }
+
+      logomark.addEventListener('click', logId);
+    </script>
     </style>
   </defs>
   <circle id="bg_circle" class="st1" cx="138.2" cy="138.2" r="137.7"/>
