@@ -2,10 +2,35 @@
     display: none;
 }
 
-.container {
-    width: 30%;
-    margin: 50px;
+.welcom_sec {
+    margin: 50px auto;
+    text-align: center;
 }
+
+.welcom_sec h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #013a63;
+}
+
+p, h3 {
+    font-size: 20px;
+    color: #676767;
+    text-align: center;
+}
+
+#logoLine, #flavorLine {
+    margin: 100px auto;
+}
+
+.container {
+    width: 35%;
+    margin: auto;
+    align-items: center;
+    overflow: visible;
+}
+
+
 
 #Cap {
     transition: all 0.4s ease;
@@ -22,14 +47,14 @@
 }
 
 #Peach:hover {
-    filter: contrast(50%);
-    animation: rotateToRight 4s linear infinite;
+    animation: bounce 0.6s ease infinite;
 }
 
-@keyframes rotateToRight {
-    0% {transform: translateX(0) rotate(0deg)}
-    50% {transform: translateX(100px)rotate(360deg)}
-    100% {transform: translateX(200px)rotate(720deg)}
+@keyframes bounce {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-30px);}
+    100% {transform: translateY(0);
+}
 }
 
 
@@ -41,7 +66,14 @@
     transform: scaleX(0.6);
 }
 
-#Lemon:hover #pulp {
+#Lemon:hover #outer_skin {
     fill: coral;
-    transform: rotate(360deg);
+    transition: fill 0.5s ease
 }
+
+#Lemon:hover #pulp {
+    transform: scale(1.1);
+    transform-origin: center;
+    transition: transform 0.5s ease;
+}
+

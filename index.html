@@ -4,24 +4,36 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Morito Rin Interactive SVG Icon</title>
-        <link href="css/main.css" rel="stylesheet">        
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/grid.css" rel="stylesheet">        
     </head>
     <body>
         <h1 class="hidden">HW1 for multimedia authoring</h1>
-        <section>
-        <h2>img tag and svg attrinutre</h2>
-        <div class="container">
+        <div class="welcom_sec">
+        <h2>Welcome to ZIMA</h2>
+        <p>Hover the objects to see what happen!</p>
+        </div>
+
+        <h3>Logo & Word Mark</h3>
+        <section id="logoLine" class="grid-con">
+        <div class="container col-span-4">
             <img src="images/_cap.svg" id="Cap">
         </div>
 
-        <div class="container">
-            <img src="images/_Peach.svg" id="Peach">
+        <div class="container col-span-4">
+          <object data="images/_Logomark.svg" type="image/svg+xml"></object>
         </div>
+
+      <div class="container col-span-4">
+        <object data="images/_Playmark.svg" type="image/svg+xml"></object>
+    </div>
+
+  
     </section>
 
-    <section>
-        <h2>Inline SVG</h2>
-        <div class="container">
+    <h3>Flavors</h3>
+    <section id="flavorLine" class="grid-con">
+        <div class="container col-span-4">
             <?xml version="1.0" encoding="UTF-8"?>
             <svg id="Lemon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 252.67 219.64">
   
@@ -74,21 +86,14 @@
   </g>
             </svg>
         </div>
-    </section>
 
-    <section>
-        <h2>objrct tag</h2>
-        <div class="container">
+        <div class="container col-span-4">
             <object data="images/_Grape.svg" type="image/svg+xml"></object>
         </div>
 
-        <div class="container">
-            <object data="images/_Logomark.svg" type="image/svg+xml"></object>
-        </div>
-
-        <div class="container">
-            <object data="images/_Playmark.svg" type="image/svg+xml"></object>
-        </div>
+        <div class="container col-span-4">
+          <img src="images/_Peach.svg" id="Peach">
+      </div>
 
     </section>
        <script src="js/main.js"></script> 
